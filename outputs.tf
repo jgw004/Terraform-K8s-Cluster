@@ -9,11 +9,11 @@ output "cluster_security_group_id" {
 }
 
 output "region" {
-    decription = "AWS region"
-    value      = var.region
+    description = "AWS region"
+    value       = var.region
 }
 
 output "cluster_name" {
-    decription = "Kubernetes Cluster Name"
-    value      = module.eks.cluster_name
+    description = "Kubernetes Cluster Name"
+    value       = module.eks.cluster_name
 }
